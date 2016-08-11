@@ -5,4 +5,14 @@
 	<p>
 	  <%= team.members %>
 	</p>
+  <p>
+    <a href="/teams/<%= team.name %>/edit">
+      Edit team <%= team.name %>
+    </a>
+  </p>
+  
+  <a href="/teams/<%= team.name %>" class='delete-link'>
+    Delete team <%= team.name%>
+  </a>
+  
 </div>
